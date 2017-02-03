@@ -39,6 +39,42 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-61",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 682.5, 2748.5, 99.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1051.0, 249.5, 93.0, 20.0 ],
+					"style" : "",
+					"text" : "Output ON/OFF",
+					"textcolor" : [ 0.117647, 1.0, 0.019608, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-54",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 648.0, 2657.5, 99.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1051.0, 175.0, 98.0, 20.0 ],
+					"style" : "",
+					"text" : "Loop Mode ON",
+					"textcolor" : [ 0.117647, 1.0, 0.019608, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-58",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -1610,7 +1646,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 542.5, 2614.0, 36.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1011.0, 246.0, 30.666687, 27.0 ],
+					"presentation_rect" : [ 1018.0, 164.5, 30.666687, 27.0 ],
 					"rounded" : 69.0,
 					"style" : "",
 					"text" : "6"
@@ -3366,6 +3402,8 @@
 			}
 , 			{
 				"box" : 				{
+					"activedialcolor" : [ 0.241383, 0.649148, 0.212305, 1.0 ],
+					"activeneedlecolor" : [ 0.007366, 0.545739, 0.546168, 1.0 ],
 					"annotation" : "",
 					"id" : "obj-87",
 					"maxclass" : "live.dial",
@@ -3373,9 +3411,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 648.0, 2690.0, 44.0, 36.0 ],
+					"patching_rect" : [ 636.0, 2691.0, 44.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1004.0, 205.25, 44.0, 36.0 ],
+					"presentation_rect" : [ 1003.0, 211.5, 44.0, 36.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.dial",
@@ -3388,6 +3426,7 @@
 					}
 ,
 					"showname" : 0,
+					"tribordercolor" : [ 0.029713, 0.0, 0.196078, 1.0 ],
 					"varname" : "live.dial"
 				}
 
@@ -3611,7 +3650,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 466.0, 2574.0, 117.0, 33.0 ],
+					"patching_rect" : [ 455.0, 2574.0, 117.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 1046.0, 90.75, 98.0, 33.0 ],
@@ -7050,7 +7089,7 @@
 					"destination" : [ "obj-87", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1170.5, 2775.0, 914.0, 2775.0, 914.0, 2679.0, 657.5, 2679.0 ],
+					"midpoints" : [ 1170.5, 2776.0, 914.0, 2776.0, 914.0, 2679.0, 645.5, 2679.0 ],
 					"source" : [ "obj-190", 0 ]
 				}
 
@@ -7135,6 +7174,7 @@
 					"destination" : [ "obj-128", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 700.5, 2659.0, 868.5, 2659.0, 868.5, 2534.0, 976.5, 2534.0 ],
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -7599,6 +7639,7 @@
 					"destination" : [ "obj-90", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 645.5, 2746.0, 882.75, 2746.0, 882.75, 2552.0, 1052.0, 2552.0 ],
 					"source" : [ "obj-87", 0 ]
 				}
 
@@ -7636,6 +7677,7 @@
 					"destination" : [ "obj-97", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 936.0, 2687.0, 983.0, 2687.0 ],
 					"source" : [ "obj-91", 0 ]
 				}
 
@@ -7645,6 +7687,7 @@
 					"destination" : [ "obj-97", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 887.0, 2700.5, 983.0, 2700.5 ],
 					"source" : [ "obj-92", 0 ]
 				}
 
@@ -7681,6 +7724,7 @@
 					"destination" : [ "obj-96", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 983.0, 2809.0, 864.0, 2809.0, 864.0, 2716.0, 745.0, 2716.0 ],
 					"source" : [ "obj-97", 0 ]
 				}
 
@@ -7690,6 +7734,7 @@
 					"destination" : [ "obj-96", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 983.0, 2807.0, 851.0, 2807.0, 851.0, 2715.0, 719.0, 2715.0 ],
 					"source" : [ "obj-97", 0 ]
 				}
 
@@ -7705,8 +7750,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-27" : [ "live.button", "live.button", 0 ],
-			"obj-87" : [ "live.dial", "live.dial", 0 ]
+			"obj-87" : [ "live.dial", "live.dial", 0 ],
+			"obj-27" : [ "live.button", "live.button", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
