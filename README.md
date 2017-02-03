@@ -28,9 +28,11 @@ Enjoy Freesounding !
 
 
 -------------------------
-Contact me at albinandrew.correya@upf.edu for any suggestions and feedbacks.
+Feel free to sent me your feedbacks and suggestions. 
 
 
+Albin Correya
+albin.a.correya@gmail.com 
 
 
 
