@@ -7,11 +7,6 @@ function token(val) {
 	access_token = val;
 }
 
-function set_current(val) {
-	current = val;
-}
-
-
 function download(id)
 {
 	var url = "https://www.freesound.org/apiv2/sounds/" + id + "/download/";
