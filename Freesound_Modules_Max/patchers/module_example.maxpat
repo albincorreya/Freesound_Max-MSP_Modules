@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 85.0, 79.0, 1201.0, 616.0 ],
+		"rect" : [ 322.0, 211.0, 1155.0, 648.0 ],
 		"bgcolor" : [ 0.332728, 0.330493, 0.315602, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -90,7 +90,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 738.0, 296.5, 49.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 176.833313, 87.25, 31.666687, 33.0 ],
+					"presentation_rect" : [ 186.666656, 87.25, 31.666687, 33.0 ],
 					"rounded" : 69.0,
 					"style" : "",
 					"text" : "2"
@@ -148,7 +148,7 @@
 					"patching_rect" : [ 293.0, 192.0, 100.0, 34.750462 ],
 					"pic" : "Freesound_project_website_logo.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 398.5, 80.75, 144.0, 50.040665 ]
+					"presentation_rect" : [ 398.5, 75.479668, 144.0, 50.040665 ]
 				}
 
 			}
@@ -601,7 +601,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 40.5, 154.0, 487.0, 199.0 ],
 					"rendermode" : 0,
-					"url" : "https://www.freesound.org/home/app_permissions/permission_granted/?code=XFpcecr64HeVK6dmFZz4nQskLvKUGf"
+					"url" : "https://www.freesound.org/home/app_permissions/permission_granted/?code=oEAoutnpbpnup3O44Ly95kUmHxgNbE"
 				}
 
 			}
@@ -880,7 +880,7 @@
 										"parse_type" : "json",
 										"http_method" : "POST",
 										"url" : "https://www.freesound.org/apiv2/oauth2/access_token",
-										"post_data" : "client_id=34c058366df942e953cc&client_secret=7e0b570a082dacd9c78a3be7e5c9f7733d646393&grant_type=authorization_code&code=PKCqIp7m5y7g47nnCamCHZrnG1uCO2"
+										"post_data" : "client_id=34c058366df942e953cc&client_secret=7e0b570a082dacd9c78a3be7e5c9f7733d646393&grant_type=authorization_code&code=oEAoutnpbpnup3O44Ly95kUmHxgNbE"
 									}
 ,
 									"id" : "obj-19",
@@ -1259,7 +1259,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 103.5, 744.0, 382.0, 22.0 ],
 					"style" : "",
-					"text" : "cO83IVjGq2rBDtTwBRmPpn2QAgBs6O"
+					"text" : "ixy2BMiMav2a6nzRmv2eOhdArqo9ir"
 				}
 
 			}
@@ -1277,7 +1277,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 103.5, 674.0, 384.0, 22.0 ],
 					"style" : "",
-					"text" : "PKCqIp7m5y7g47nnCamCHZrnG1uCO2"
+					"text" : "oEAoutnpbpnup3O44Ly95kUmHxgNbE"
 				}
 
 			}
@@ -1409,7 +1409,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 53.0, 156.0, 599.0, 22.0 ],
 					"style" : "",
-					"text" : "url https://www.freesound.org/apiv2/oauth2/authorize/?client_id=34c058366df942e953cc&response_type=code"
+					"text" : "url https://www.freesound.org/apiv2/oauth2/authorize/?client_id=0&response_type=code"
 				}
 
 			}
@@ -1526,7 +1526,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 581.5, 2560.0, 36.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 976.333313, 95.25, 30.666687, 27.0 ],
+					"presentation_rect" : [ 978.333313, 95.25, 30.666687, 27.0 ],
 					"rounded" : 69.0,
 					"style" : "",
 					"text" : "5"
@@ -1565,7 +1565,7 @@
 					"patching_rect" : [ 683.0, 1188.0, 100.0, 34.750462 ],
 					"pic" : "Freesound_project_website_logo.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 1011.0, 306.0, 124.0, 43.090572 ]
+					"presentation_rect" : [ 992.5, 315.221832, 147.5, 51.256931 ]
 				}
 
 			}
@@ -3216,7 +3216,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 741.0, 2361.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "161515"
+					"text" : "275688"
 				}
 
 			}
@@ -3314,7 +3314,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 621.25, 95.25, 58.0, 28.0 ],
 					"style" : "",
-					"text" : "161515"
+					"text" : "275688"
 				}
 
 			}
@@ -3588,7 +3588,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 146.5, 2981.5, 163.0, 49.0 ],
 					"style" : "",
-					"text" : "\"KingDian S280-240GB Media:/freesound_download/50738.wav\""
+					"text" : "\"KingDian S280-240GB Media:/freesound_download/275688.wav\""
 				}
 
 			}
@@ -3601,7 +3601,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 140.5, 3298.0, 221.0, 22.0 ],
 					"style" : "",
-					"text" : "read /freesound_download/50738.wav"
+					"text" : "read /freesound_download/275688.wav"
 				}
 
 			}
@@ -3672,7 +3672,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 192.0, 662.0, 164.0, 35.0 ],
 									"style" : "",
-									"text" : "/freesound_download/50738.wav"
+									"text" : "/freesound_download/275688.wav"
 								}
 
 							}
@@ -3718,13 +3718,14 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-22",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 264.0, 786.0, 216.0, 22.0 ],
 									"style" : "",
-									"text" : "read /freesound_download/50738.wav"
+									"text" : "read /freesound_download/275688.wav"
 								}
 
 							}
@@ -3802,7 +3803,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 192.0, 382.0, 173.0, 49.0 ],
 									"style" : "",
-									"text" : "S280-240GB Media:/freesound_download/50738.wav"
+									"text" : "S280-240GB Media:/freesound_download/275688.wav"
 								}
 
 							}
@@ -3829,7 +3830,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 192.0, 232.5, 213.0, 49.0 ],
 									"style" : "",
-									"text" : "S280-240GB Media:/freesound_download/50738.wav"
+									"text" : "S280-240GB Media:/freesound_download/275688.wav"
 								}
 
 							}
@@ -3856,7 +3857,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 192.0, 532.5, 150.0, 35.0 ],
 									"style" : "",
-									"text" : "Media:/freesound_download/50738.wav"
+									"text" : "Media:/freesound_download/275688.wav"
 								}
 
 							}
@@ -4521,7 +4522,8 @@
 					"patching_rect" : [ 305.5, 1966.0, 798.0, 259.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 46.0, 517.0, 779.0, 185.0 ],
-					"rowheight" : 23
+					"rowheight" : 23,
+					"rows" : 5
 				}
 
 			}
@@ -4559,7 +4561,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 859.0, 475.25, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "161515"
+					"text" : "275688"
 				}
 
 			}
@@ -4756,7 +4758,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1368.0, 279.0, 234.0, 49.0 ],
 									"style" : "",
-									"text" : "set 4 10 http://creativecommons.org/licenses/by/3.0/"
+									"text" : "set 4 5 http://creativecommons.org/licenses/by/3.0/"
 								}
 
 							}
@@ -4907,7 +4909,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1110.0, 279.0, 234.0, 22.0 ],
 									"style" : "",
-									"text" : "set 3 10 isaiah.chentnik"
+									"text" : "set 3 5 magedu"
 								}
 
 							}
@@ -4959,7 +4961,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 859.0, 279.0, 208.0, 76.0 ],
 									"style" : "",
-									"text" : "set 2 10 blues\\,fender\\,guitar\\,guitar-jam\\,isaiah-chentnik\\,jam\\,riff\\,s-r-v-wanna-be-1\\,srv\\,stevie-ray-vaughan\\,stratocaster"
+									"text" : "set 2 5 city\\,street\\,field-recording\\,people\\,car\\,stockerau\\,rain\\,walk\\,austria\\,atmo\\,traffic\\,background\\,ambient\\,ambience\\,pass-by\\,balcony"
 								}
 
 							}
@@ -5004,13 +5006,14 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 593.0, 279.0, 260.0, 22.0 ],
 									"style" : "",
-									"text" : "set 1 10 Guitar Jam 2 - S R V Wanna Be 1.wav"
+									"text" : "set 1 5 ambience_Stockerau_balcony_rain_traffic_02.wav"
 								}
 
 							}
@@ -5061,7 +5064,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 329.0, 279.0, 234.0, 22.0 ],
 									"style" : "",
-									"text" : "set 0 10 52606"
+									"text" : "set 0 5 329510"
 								}
 
 							}
@@ -5532,7 +5535,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 119.0, 161.5, 50.0, 22.0 ],
 									"style" : "",
-									"text" : "text 10"
+									"text" : "text 5"
 								}
 
 							}
@@ -5624,7 +5627,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 157.5, 445.5, 90.0, 24.0 ],
 					"style" : "default",
-					"text" : "10"
+					"text" : "5"
 				}
 
 			}
@@ -5975,7 +5978,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-15",
@@ -6093,7 +6095,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 119.0, 161.5, 50.0, 22.0 ],
 													"style" : "",
-													"text" : "text 10"
+													"text" : "text 5"
 												}
 
 											}
@@ -6303,14 +6305,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-19",
-									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 57.0, 481.0, 757.0, 49.0 ],
 									"style" : "",
-									"text" : "seturl http://www.freesound.org/apiv2/search/text/?token=7e0b570a082dacd9c78a3be7e5c9f7733d646393&query=jam&filter=tag:jam&type:wav&page_size=10"
+									"text" : "seturl http://www.freesound.org/apiv2/search/text/?token=0&query=&filter=tag:&type:&page_size=0"
 								}
 
 							}
@@ -6735,7 +6736,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 634.0, 1424.0, 85.0, 22.0 ],
 					"style" : "",
-					"text" : "jam street"
+					"text" : "street"
 				}
 
 			}
@@ -6780,13 +6781,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-62",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 295.5, 1419.0, 50.0, 22.0 ],
+					"patching_rect" : [ 295.5, 1419.0, 50.0, 35.0 ],
 					"style" : "",
-					"text" : "jam"
+					"text" : "Ambience"
 				}
 
 			}
@@ -6851,7 +6853,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 410.333252, 411.0, 187.0, 25.0 ],
 					"style" : "",
-					"text" : "jam, street"
+					"text" : "street"
 				}
 
 			}
@@ -6865,9 +6867,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 112.0, 933.0, 172.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 157.5, 416.0, 121.0, 25.0 ],
+					"presentation_rect" : [ 157.5, 416.0, 122.0, 25.0 ],
 					"style" : "",
-					"text" : "jam"
+					"text" : "Ambience"
 				}
 
 			}
