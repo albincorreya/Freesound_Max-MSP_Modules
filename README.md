@@ -18,15 +18,19 @@ Thanks to Stefan Brunner.
 
 2. Replace respective fileds in the "api_auth.json" file inside the 'data' folder with your CLIENT_ID & CLIENT SECRET (API_KEY).
 
-3. Create a folder named 'freesound_downloads' in your home directory of your computer. You are expected to change the file path inside 'download_by_id.js' inorder to save the downloaded freesound samples in a different folder.
+3. Create a folder named 'freesound_downloads' in your home directory of your computer. You are expected to change the file path inside 'download_by_id.js' inorder to download sound samples in a different folder.
 
 4. Load the max project file 'Freesound_Modules_Max.maxproj' located in the home folder and follow the instructions in the patch.
 
 
 
-
-
 Enjoy Freesounding !
+
+
+-------------------------
+For any doubts, feedback and suggestions contact me at albinandrew.correya@upf.edu
+
+
 
 
 
