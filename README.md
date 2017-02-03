@@ -4,7 +4,7 @@ Client-side library for interacting with freesound API from Max/MSP using native
 
 Reusable Max patches encapsulating different search functionalities of Freesound API.
 
-1. Visit http://www.freesound.org/docs/api/ 
+Visit http://www.freesound.org/docs/api/ 
 
 This project uses Stepfan Brunner's implementation of OAuth2 authorisation of freesound API in Max.
 http://stb.klingt.org/ElevatorMusicGenerator/
@@ -28,7 +28,9 @@ Enjoy Freesounding !
 
 
 -------------------------
-For any doubts, feedback and suggestions contact me at albinandrew.correya@upf.edu
+Contact me at albinandrew.correya@upf.edu for any suggestions and feedbacks.
+
+
 
 
 
