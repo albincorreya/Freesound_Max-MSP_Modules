@@ -1363,7 +1363,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 103.5, 744.0, 382.0, 22.0 ],
 					"style" : "",
-					"text" : "tYfGX4rVrPepB0f80BYqAZPT2yTF7h"
+					"text" : "0"
 				}
 
 			}
@@ -1381,7 +1381,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 103.5, 674.0, 384.0, 22.0 ],
 					"style" : "",
-					"text" : "7UKigxxT8LQB1ra5Ad5BwaSQf5nN4J"
+					"text" : "0"
 				}
 
 			}
@@ -1513,7 +1513,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 53.0, 156.0, 599.0, 22.0 ],
 					"style" : "",
-					"text" : "url https://www.freesound.org/apiv2/oauth2/authorize/?client_id=34c058366df942e953cc&response_type=code"
+					"text" : "url https://www.freesound.org/apiv2/oauth2/authorize/?client_id=0&response_type=code"
 				}
 
 			}
@@ -3596,7 +3596,7 @@
 					"patching_rect" : [ 293.5, 2657.5, 324.0, 136.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 633.5, 205.25, 357.0, 120.0 ],
-					"setmode" : 1,
+					"setmode" : 3,
 					"style" : ""
 				}
 
@@ -5818,14 +5818,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-19",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 57.0, 481.0, 757.0, 49.0 ],
 									"style" : "",
-									"text" : "seturl http://www.freesound.org/apiv2/search/text/?token=7e0b570a082dacd9c78a3be7e5c9f7733d646393&query=&filter=tag:&type:&page_size=0"
+									"text" : "seturl http://www.freesound.org/apiv2/search/text/?token=0&query=&filter=tag:&type:&page_size=0"
 								}
 
 							}
@@ -7706,8 +7705,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-87" : [ "live.dial", "live.dial", 0 ],
-			"obj-27" : [ "live.button", "live.button", 0 ]
+			"obj-27" : [ "live.button", "live.button", 0 ],
+			"obj-87" : [ "live.dial", "live.dial", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
