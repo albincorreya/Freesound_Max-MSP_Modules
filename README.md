@@ -16,9 +16,11 @@ Thanks to Stefan Brunner.
 
 1. Apply for API key at http://www.freesound.org/apiv2/apply 
 
-2. Replace respective fileds in the "api_auth.json" file with your CLIENT_ID & CLIENT SECRET (API_KEY).
+2. Replace respective fileds in the "api_auth.json" file inside the 'data' folder with your CLIENT_ID & CLIENT SECRET (API_KEY).
 
-3. Load the max project file located in the home folder.
+3. Load the max project file 'Freesound_Modules_Max.maxproj' located in the home folder.
+
+
 
 
 
