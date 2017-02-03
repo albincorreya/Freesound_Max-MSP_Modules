@@ -2,7 +2,7 @@
 
 Client-side library for interacting with freesound API from Max/MSP using native max js object.
 
-Reusable Max patches encapsulating different search functionalities of Freesound API.
+These reusable Max patches encapsulates different search functionalities of Freesound API.
 
 Visit http://www.freesound.org/docs/api/ 
 
