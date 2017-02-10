@@ -31,7 +31,7 @@ Enjoy Freesounding !
 
 
 -------------------------
-Feel free to sent me your feedbacks and suggestions at albin.a.correya@gmail.com 
+Feel free to sent me your feedbacks and suggestions at albinandrew.correya@upf.edu 
 
 
 
