@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 91.0, 79.0, 1155.0, 648.0 ],
+		"rect" : [ 51.0, 79.0, 1186.0, 648.0 ],
 		"bgcolor" : [ 0.332728, 0.330493, 0.315602, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -38,6 +38,51 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 14.0,
+					"id" : "obj-65",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 858.75, 216.0, 64.0, 31.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 472.0, 110.75, 64.0, 34.5 ],
+					"rounded" : 61.0,
+					"style" : "",
+					"text" : "Logout"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-88",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 690.0, 127.0, 60.0, 22.0 ],
+					"style" : "",
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-79",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 690.0, 162.0, 360.0, 22.0 ],
+					"style" : "",
+					"text" : "url https://www.freesound.org/apiv2/oauth2/logout_and_authorize/"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontface" : 2,
 					"fontname" : "Arial",
@@ -190,7 +235,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 666.0, 222.5, 49.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.833313, 87.25, 31.666687, 33.0 ],
+					"presentation_rect" : [ 28.833313, 75.75, 31.666687, 33.0 ],
 					"rounded" : 69.0,
 					"style" : "",
 					"text" : "1"
@@ -230,7 +275,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 738.0, 296.5, 49.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 186.666656, 87.25, 31.666687, 33.0 ],
+					"presentation_rect" : [ 174.666656, 75.25, 31.666687, 33.0 ],
 					"rounded" : 69.0,
 					"style" : "",
 					"text" : "2"
@@ -288,7 +333,7 @@
 					"patching_rect" : [ 866.0, 415.5, 100.0, 34.750462 ],
 					"pic" : "Freesound_project_website_logo.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 398.5, 75.479668, 144.0, 50.040665 ]
+					"presentation_rect" : [ 410.333252, 56.0, 144.0, 50.040665 ]
 				}
 
 			}
@@ -318,7 +363,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 725.25, 220.5, 89.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 63.5, 80.75, 92.0, 49.0 ],
+					"presentation_rect" : [ 66.0, 67.25, 92.0, 49.0 ],
 					"rounded" : 110.0,
 					"style" : "",
 					"text" : "Load_JSON"
@@ -337,7 +382,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 791.75, 280.5, 165.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 224.0, 80.75, 150.0, 39.5 ],
+					"presentation_rect" : [ 215.0, 71.25, 150.0, 39.5 ],
 					"rounded" : 61.0,
 					"style" : "",
 					"text" : "Authorize"
@@ -699,7 +744,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 53.0, 106.5, 31.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.5, 124.25, 27.0, 24.0 ],
+					"presentation_rect" : [ 325.5, 120.25, 27.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.button",
@@ -741,7 +786,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 40.5, 154.0, 487.0, 199.0 ],
 					"rendermode" : 0,
-					"url" : "https://www.freesound.org/home/app_permissions/permission_granted/?code=7UKigxxT8LQB1ra5Ad5BwaSQf5nN4J"
+					"url" : "https://www.freesound.org/apiv2/login/?next=https%3A//www.freesound.org/apiv2/oauth2/authorize/"
 				}
 
 			}
@@ -800,7 +845,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 332.0, 79.0, 747.0, 727.0 ],
+						"rect" : [ 225.0, 79.0, 853.0, 613.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -828,6 +873,32 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 308.0, 272.0, 60.0, 22.0 ],
+									"style" : "",
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 308.0, 309.0, 528.0, 22.0 ],
+									"style" : "",
+									"text" : "sprintf \"set post_data client_id=%s&client_secret=%s&grant_type=authorization_code&code=%s\""
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-4",
 									"maxclass" : "newobj",
@@ -1020,7 +1091,7 @@
 										"parse_type" : "json",
 										"http_method" : "POST",
 										"url" : "https://www.freesound.org/apiv2/oauth2/access_token",
-										"post_data" : "client_id=34c058366df942e953cc&client_secret=7e0b570a082dacd9c78a3be7e5c9f7733d646393&grant_type=authorization_code&code=7UKigxxT8LQB1ra5Ad5BwaSQf5nN4J"
+										"post_data" : "client_id=&client_secret=&grant_type=authorization_code&code="
 									}
 ,
 									"id" : "obj-19",
@@ -1155,10 +1226,29 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 317.5, 341.0, 275.5, 341.0, 275.5, 275.0, 59.5, 275.0 ],
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-16", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-13", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-14", 0 ]
 								}
 
 							}
@@ -1736,34 +1826,6 @@
 					"patching_rect" : [ 569.0, 1556.0, 160.0, 47.0 ],
 					"style" : "",
 					"text" : "patch to append desired url queries according to the user request"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-170",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 823.5, 2867.0, 43.0, 22.0 ],
-					"style" : "",
-					"text" : "notein"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-137",
-					"maxclass" : "kslider",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 823.5, 2901.0, 336.0, 53.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 851.666626, 390.0, 448.0, 68.0 ],
-					"style" : ""
 				}
 
 			}
@@ -3356,7 +3418,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 741.0, 2361.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "266664"
+					"text" : "176019"
 				}
 
 			}
@@ -3443,7 +3505,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 621.25, 95.25, 58.0, 28.0 ],
 					"style" : "",
-					"text" : "266664"
+					"text" : "176019"
 				}
 
 			}
@@ -3703,7 +3765,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 160.5, 3043.0, 221.0, 22.0 ],
 					"style" : "",
-					"text" : "read /freesound_download/266664.wav"
+					"text" : "read /freesound_download/176019.wav"
 				}
 
 			}
@@ -4076,7 +4138,8 @@
 					"patching_rect" : [ 305.5, 1966.0, 798.0, 259.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 46.0, 518.0, 779.0, 185.0 ],
-					"rowheight" : 23
+					"rowheight" : 23,
+					"rows" : 30
 				}
 
 			}
@@ -4114,7 +4177,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 859.0, 475.25, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "266664"
+					"text" : "176019"
 				}
 
 			}
@@ -4311,7 +4374,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1368.0, 279.0, 234.0, 49.0 ],
 									"style" : "",
-									"text" : "set 4 10 http://creativecommons.org/licenses/by/3.0/"
+									"text" : "set 4 28 http://creativecommons.org/licenses/by/3.0/"
 								}
 
 							}
@@ -4462,7 +4525,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1110.0, 279.0, 234.0, 22.0 ],
 									"style" : "",
-									"text" : "set 3 10 Eelke"
+									"text" : "set 3 28 Iberian_Runa"
 								}
 
 							}
@@ -4507,14 +4570,14 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-9",
-									"linecount" : 5,
+									"linecount" : 8,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 859.0, 279.0, 208.0, 76.0 ],
 									"style" : "",
-									"text" : "set 2 10 marketplace\\,noise\\,field-recording\\,talking\\,people\\,ambiance\\,atmosphere\\,morocco\\,ambient\\,ambience\\,soundscape\\,market"
+									"text" : "set 2 28 walking\\,footstep\\,walk\\,running\\,video\\,stepping\\,crouch\\,ground\\,concrete\\,movie\\,travel\\,marching\\,crunch\\,run\\,crouching\\,stomp\\,game\\,jog\\,foot\\,feet\\,gravel\\,step\\,foot-steps\\,soldier\\,jogging\\,steps\\,footsteps\\,trooper\\,road"
 								}
 
 							}
@@ -4559,14 +4622,14 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
-									"linecount" : 3,
+									"linecount" : 4,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 593.0, 279.0, 104.0, 49.0 ],
 									"style" : "",
-									"text" : "set 1 10 open air market morocco 3"
+									"text" : "set 1 28 Footsteps of soldier on ground.wav"
 								}
 
 							}
@@ -4617,7 +4680,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 329.0, 279.0, 234.0, 22.0 ],
 									"style" : "",
-									"text" : "set 0 10 266662"
+									"text" : "set 0 28 243794"
 								}
 
 							}
@@ -5088,7 +5151,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 119.0, 161.5, 50.0, 22.0 ],
 									"style" : "",
-									"text" : "text"
+									"text" : "text 30"
 								}
 
 							}
@@ -5179,7 +5242,8 @@
 					"patching_rect" : [ 692.0, 992.0, 90.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 157.5, 445.5, 90.0, 24.0 ],
-					"style" : "default"
+					"style" : "default",
+					"text" : "30"
 				}
 
 			}
@@ -5647,7 +5711,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 119.0, 161.5, 50.0, 22.0 ],
 													"style" : "",
-													"text" : "text"
+													"text" : "text 30"
 												}
 
 											}
@@ -6351,7 +6415,8 @@
 					"patching_rect" : [ 112.0, 1033.5, 172.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 410.333252, 411.0, 187.0, 25.0 ],
-					"style" : ""
+					"style" : "",
+					"text" : "footsteps"
 				}
 
 			}
@@ -6366,7 +6431,8 @@
 					"patching_rect" : [ 112.0, 933.0, 172.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 157.5, 416.0, 122.0, 25.0 ],
-					"style" : ""
+					"style" : "",
+					"text" : "grass"
 				}
 
 			}
@@ -7041,15 +7107,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-137", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-170", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-132", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -7443,6 +7500,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-79", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 868.25, 257.0, 1056.875, 257.0, 1056.875, 151.0, 699.5, 151.0 ],
+					"source" : [ "obj-65", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-70", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -7552,6 +7619,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-32", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-79", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -7641,6 +7717,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 645.5, 2746.0, 882.75, 2746.0, 882.75, 2552.0, 1052.0, 2552.0 ],
 					"source" : [ "obj-87", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-79", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-88", 0 ]
 				}
 
 			}
@@ -7756,13 +7841,13 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "text_search_fs.js",
-				"bootpath" : "~/Documents/Max 7/Projects/Freesound_Modules_Max/Freesound_Modules_Max/code",
+				"bootpath" : "~/Documents/Github/Freesound_Max-MSP_Modules/Freesound_Modules_Max/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "download_by_id.js",
-				"bootpath" : "~/Documents/Max 7/Projects/Freesound_Modules_Max/Freesound_Modules_Max/code",
+				"bootpath" : "~/Documents/Github/Freesound_Max-MSP_Modules/Freesound_Modules_Max/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -7780,7 +7865,7 @@
 			}
 , 			{
 				"name" : "Freesound_project_website_logo.png",
-				"bootpath" : "~/Documents/Max 7/Projects/Freesound_Modules_Max/Freesound_Modules_Max/media",
+				"bootpath" : "~/Documents/Github/Freesound_Max-MSP_Modules/Freesound_Modules_Max/media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
