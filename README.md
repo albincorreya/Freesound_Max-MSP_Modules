@@ -9,7 +9,10 @@ Visit http://www.freesound.org/docs/api/
 This project uses Stepfan Brunner's implementation of OAuth2 authorisation of freesound API in Max.
 http://stb.klingt.org/ElevatorMusicGenerator/
 
-Thanks to Stefan Brunner.
+And some visualizing concepts from Nao Tokui's 'freesound_search' max external.
+https://github.com/naotokui/MaxMSP_Objects/tree/master/freesoundsearch
+
+Thanks to Stefan Brunner and Nao Tokui.
 
 
 # Installation 
