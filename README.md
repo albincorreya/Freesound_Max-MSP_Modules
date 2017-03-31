@@ -1,7 +1,5 @@
 # Freesound_Max-MSP_Modules
 
-(We are still are under developing more features to the library, use it at your own risk)
-
 Client-side library for interacting with freesound API from Max/MSP using native max js object.
 
 These reusable Max patches encapsulates different search functionalities of Freesound API.
@@ -27,6 +25,7 @@ Thanks to Stefan Brunner and Nao Tokui.
 
 4. Load the max project file 'Freesound_Modules_Max.maxproj' located in the home folder and follow the instructions in the patch.
 
+(Library is still under development, use it at your own risk)
 
 
 Enjoy Freesounding !
