@@ -1,5 +1,8 @@
 # Freesound_Max-MSP_Modules
 
+(PS : Library is still under development)
+
+
 Client-side library for interacting with freesound API from Max/MSP using native max js object.
 
 These reusable Max patches encapsulates different search functionalities of Freesound API.
@@ -21,31 +24,15 @@ Thanks to Stefan Brunner and Nao Tokui.
 
 2. Replace respective fileds in the "api_auth.json" file inside the 'data' folder with your CLIENT_ID & CLIENT SECRET (API_KEY).
 
-3. Create a folder named 'freesound_download' in your system home directory (/) of your computer. You are expected to change the file path and workflow inside 'download_by_id.js' inorder to download sound samples in a different folder.
+3. Create a folder named 'freesound_download' in your system home directory (/) of your computer. You are expected to change the file path and workflow inside '/code/download_by_id.js' inorder to download sound samples in a different folder.
 
 4. Load the max project file 'Freesound_Modules_Max.maxproj' located in the home folder and follow the instructions in the patch.
-
-(Library is still under development, use it at your own risk)
 
 
 Enjoy Freesounding !
 
-
 -------------------------
-Feel free to sent me your feedbacks and suggestions at albinandrew.correya@upf.edu 
-
-
-
-
-
-
-
-
-
-
-
-
-
+In case of any doubts or suggestions contact me at albinandrew.correya@upf.edu
 
 
 
