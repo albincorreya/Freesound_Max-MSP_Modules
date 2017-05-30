@@ -18,7 +18,7 @@ https://github.com/naotokui/MaxMSP_Objects/tree/master/freesoundsearch
 Thanks to Stefan Brunner and Nao Tokui.
 
 
-# Installation 
+## Installation 
 
 1. Apply for API key at http://www.freesound.org/apiv2/apply 
 
